@@ -1,9 +1,11 @@
-version: 2.1
+
+version: 2.1 
 jobs:
   build-and-test:
     machine:
       image: ubuntu-2204:2023.07.2
       docker_layer_caching: true
+      docker_layer_caching: true 
     steps:
       - checkout
       - run: make deps
@@ -14,5 +16,4 @@ jobs:
 workflows:
   basic:
     jobs:
-        -build-and-test
-        
+
