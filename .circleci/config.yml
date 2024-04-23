@@ -1,4 +1,3 @@
-
 version: 2.1 
 jobs:
   build-and-test:
@@ -15,5 +14,5 @@ jobs:
 workflows:
   basic:
     jobs:
-        -build-and-test
+        - build-and-test
 
