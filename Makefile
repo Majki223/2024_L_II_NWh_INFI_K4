@@ -9,7 +9,7 @@ run:
 test:
 	PYTHONPATH=. py.test --verbose -s
 docker_build:
-	docker build -t hello-world-printer C:/Users/vdi-student/Majki223/2024_L_II_NWh_INFI_K4
+	docker build -t hello-world-printer .
 
 docker_run: docker_build
 	docker run \
